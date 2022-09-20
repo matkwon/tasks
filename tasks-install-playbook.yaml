@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - add_host:
-      name: "{{ server }}"
+      name: "192.168.15.0"
       groups: working_group
     changed_when: false
 
